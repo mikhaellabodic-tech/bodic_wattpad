@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wattpad Books - Gallery</title>
+
+    <style>
+       
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fce4ec;
+    color: #000000;
+}
+
+header, nav, footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.feature {
+    background-color: #fff0f5;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #ad1457;
+}
+
+        .gallery-container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit, minmax(250px, 1fr)
+            );
+            gap: 20px;
+        }
+
+        .grid img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .grid img:hover {
+            transform: scale(1.05);
+        }
+
+        .book {
+            background: #ffffff;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .book p {
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Wattpad Books Gallery</h1>
+        <h3>Discover Stories and Explore Imagination</h3>
+    </header>
+
+    <!-- MENU -->
+    <nav>
+        <a href="index.html">HOME</a> |
+        <a href="books.html">BOOKS</a> |
+        <a href="gallery.html">GALLERY</a> |
+        <a href="about.html">ABOUT</a>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="gallery-container">
+
+        <center>
+            <h2>Our Book Collection</h2>
+
+            <p>
+                Explore the wonderful world of reading
+                through books, beautiful collections,
+                and stories that inspire our imagination.
+            </p>
+        </center>
+
+        <!-- PHOTO GALLERY -->
+        <div class="grid">
+
+            <!-- IMAGE 1 -->
+            <div class="book">
+                <img src="soss.jpg"
+                     alt="Books displayed on bookstore shelves">
+                <p>Bookstore Collection</p>
+            </div>
+
+            <!-- IMAGE 2 -->
+            <div class="book">
+                <img src="whutt.jpg"
+                     alt="Aesthetic books decorated with flowers">
+                <p>Aesthetic Reading Corner</p>
+            </div>
+
+            <!-- IMAGE 3 -->
+            <div class="book">
+                <img src="ahhh.jpg"
+                     alt="Stack of printed books">
+                <p>Printed Book Collection</p>
+            </div>
+
+            <!-- IMAGE 4 -->
+            <div class="book">
+                <img src="what.jpg"
+                     alt="Collection of romance books">
+                <p>Favorite Romance Books</p>
+            </div>
+
+        </div>
+
+        <!-- ENDING MESSAGE -->
+        <center>
+            <h2 style="margin-top: 40px;">
+                Every Book Has a Story
+            </h2>
+
+            <p>
+                Read more, dream more, and let every story
+                take you to a different world.
+            </p>
+        </center>
+
+    </main>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Author:Michaella Bodic<br>
+            Year: 2026<br>
+            Website: Wattpad Books
+        </p>
+
+        <p>
+            &copy; 2026 Wattpad Books Website.
+            All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>

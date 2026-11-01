@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wattpad Books - Home</title>
+
+    <style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fce4ec;
+    color: #000000;
+}
+
+header, nav, footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.feature {
+    background-color: #fff0f5;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #ad1457;
+}
+
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .main-image {
+            width: 600px;
+            max-width: 100%;
+            height: 400px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        .intro {
+            max-width: 700px;
+            margin: 20px auto;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .button {
+            display: inline-block;
+            background: #ff6600;
+            color: white;
+            padding: 12px 22px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #cc5200;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit, minmax(220px, 1fr)
+            );
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .feature {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .feature h3 {
+            color: #ff6600;
+        }
+
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit, minmax(150px, 1fr)
+            );
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .book {
+            background: white;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .book img {
+            width: 100%;
+            height: 250px;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+
+        .book img:hover {
+            transform: scale(1.05);
+        }
+
+        .book h3 {
+            font-size: 16px;
+            color: #ff6600;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Welcome to Wattpad Books</h1>
+        <h3>Discover Stories, Feel Every Emotion</h3>
+        <hr>
+    </header>
+
+    <!-- NAVIGATION MENU -->
+    <nav>
+        <a href="index.html">HOME</a> |
+        <a href="books.html">BOOKS</a> |
+        <a href="gallery.html">GALLERY</a> |
+        <a href="about.html">ABOUT</a>
+        <hr>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+
+        <center>
+            <h2>Discover the World of Stories</h2>
+
+            <!-- MAIN BOOK PHOTO -->
+            <img
+                src="so what.jpg"
+                alt="Amor Wattpad book cover"
+                class="main-image"
+            >
+        </center>
+
+        <div class="intro">
+
+            <p>
+                Welcome to Wattpad Books, a place where readers
+                and writers can explore different kinds of
+                stories. From romance and drama to fantasy,
+                mystery, and adventure, there are many stories
+                waiting to be discovered.
+            </p>
+
+            <p>
+                Reading allows us to experience different
+                emotions, meet interesting characters, and
+                explore imaginary worlds. Whether you enjoy
+                sweet love stories, exciting adventures, or
+                unexpected plot twists, there is always a
+                story for you.
+            </p>
+
+            <p>
+                Our website features some popular Wattpad
+                stories such as Amor, Chase and Hearts,
+                Scorching Love, Hopeless Romantic, and Cake
+                Skies. We hope to inspire everyone to read
+                more and discover the joy of storytelling.
+            </p>
+
+        </div>
+
+        <!-- EXPLORE SECTIONS -->
+        <center>
+            <h2>Explore Wattpad Books</h2>
+        </center>
+
+        <div class="features">
+
+            <div class="feature">
+                <h3>Book Collection</h3>
+                <p>
+                    Discover different stories filled with
+                    romance, drama, friendship, and adventure.
+                </p>
+                <a href="books.html" class="button">
+                    View Books
+                </a>
+            </div>
+
+            <div class="feature">
+                <h3>Book Gallery</h3>
+                <p>
+                    Explore our collection of Wattpad book
+                    covers and discover interesting stories.
+                </p>
+                <a href="gallery.html" class="button">
+                    View Gallery
+                </a>
+            </div>
+
+            <div class="feature">
+                <h3>About Us</h3>
+                <p>
+                    Learn about our website and our love
+                    for reading and discovering stories.
+                </p>
+                <a href="about.html" class="button">
+                    Learn More
+                </a>
+            </div>
+
+        </div>
+
+        <!-- FEATURED BOOKS -->
+        <center>
+            <h2 style="margin-top: 40px;">
+                Featured Wattpad Books
+            </h2>
+            <p>
+                Here are some stories you might enjoy!
+            </p>
+        </center>
+
+        <div class="book-grid">
+
+            <div class="book">
+                <img src="so what.jpg"
+                     alt="Amor book cover">
+                <h3>Amor</h3>
+                <p>By Kaitlyn Tenorio</p>
+            </div>
+
+            <div class="book">
+                <img src="tite.jpg"
+                     alt="Chase and Hearts book cover">
+                <h3>Chase and Hearts</h3>
+                <p>By JONAXX</p>
+            </div>
+
+            <div class="book">
+                <img src="manu.jpg"
+                     alt="Scorching Love book cover">
+                <h3>Scorching Love</h3>
+                <p>By JONAXX</p>
+            </div>
+
+            <div class="book">
+                <img src="ehhhh.jpg"
+                     alt="Hopeless Romantic book cover">
+                <h3>Hopeless Romantic</h3>
+                <p>Book 2 - By Strawberry08</p>
+            </div>
+
+            <div class="book">
+                <img src="wow.jpg"
+                     alt="Cake Skies book cover">
+                <h3>Cake Skies</h3>
+                <p>By 4reuminct</p>
+            </div>
+
+        </div>
+
+        <!-- REMINDER -->
+        <center>
+            <h3 style="margin-top: 35px;">
+                Every Story Has a Beautiful Beginning
+            </h3>
+
+            <p>
+                Read more, imagine more, and let every story
+                take you to a different world.
+            </p>
+        </center>
+
+    </main>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Author: Michaella Bodic<br>
+            Year: 2026<br>
+            Website: Wattpad Books
+        </p>
+
+        <p>
+            &copy; 2026 Wattpad Books Website.
+            All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>

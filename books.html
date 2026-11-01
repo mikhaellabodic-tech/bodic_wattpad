@@ -1,0 +1,234 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wattpad Books - Gallery</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fce4ec;
+            color: #000000;
+        }
+
+        header, nav, footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #ffffff;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            color: #ff6600;
+        }
+
+        h1, h2, h3 {
+            color: #ad1457;
+        }
+
+        .gallery-container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .main-image {
+            width: 300px;
+            max-width: 100%;
+            height: 400px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit, minmax(180px, 1fr)
+            );
+            gap: 20px;
+        }
+
+        .grid img {
+            width: 100%;
+            height: 320px;
+            object-fit: contain;
+            background: #ffffff;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .grid img:hover {
+            transform: scale(1.05);
+        }
+
+        .book {
+            text-align: center;
+            background: #ffffff;
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        .book p {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #ad1457;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #000000;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Wattpad Books Gallery</h1>
+        <h3>Explore Stories and Discover New Adventures</h3>
+        <hr>
+    </header>
+
+    <!-- MENU -->
+    <nav>
+        <a href="index.html">HOME</a> |
+        <a href="books.html">BOOKS</a> |
+        <a href="gallery.html">GALLERY</a> |
+        <a href="about.html">ABOUT</a>
+        <hr>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="gallery-container">
+
+        <center>
+            <h2>Discover Your Next Favorite Story</h2>
+
+            <!-- MAIN BOOK IMAGE -->
+            <img
+                src="so what.jpg"
+                alt="Amor Wattpad book cover"
+                class="main-image"
+            >
+
+            <p style="max-width: 700px; text-align: justify;
+                      line-height: 1.6; margin: 20px auto;">
+
+                Welcome to our Wattpad Books Gallery! Here you
+                can discover different stories filled with love,
+                friendship, adventure, and unforgettable moments.
+
+                Reading is a wonderful way to explore new worlds
+                and experience different emotions through stories.
+                Every book has its own unique characters and
+                interesting journey.
+
+            </p>
+
+            <p style="max-width: 700px; text-align: justify;
+                      line-height: 1.6; margin: 20px auto;">
+
+                Whether you enjoy romance, drama, or comedy,
+                there is always a story waiting for you.
+                Explore our collection and find a book
+                that matches your interests!
+
+            </p>
+        </center>
+
+        <!-- BOOK COLLECTION -->
+        <div style="margin-top: 40px;">
+
+            <h3 style="text-align: center;">
+                Our Wattpad Book Collection
+            </h3>
+
+            <div class="grid">
+
+                <!-- BOOK 1 -->
+                <div class="book">
+                    <img src="naii.jpg"
+                         alt="Amor book cover">
+                    <p>Amor</p>
+                    <small>By Kaitlyn Tenorio</small>
+                </div>
+
+                <!-- BOOK 2 -->
+                <div class="book">
+                    <img src="tite.jpg"
+                         alt="Chase and Hearts book cover">
+                    <p>Chase and Hearts</p>
+                    <small>By JONAXX</small>
+                </div>
+
+                <!-- BOOK 3 -->
+                <div class="book">
+                    <img src="manu.jpg"
+                         alt="Scorching Love book cover">
+                    <p>Scorching Love</p>
+                    <small>By JONAXX</small>
+                </div>
+
+                <!-- BOOK 4 -->
+                <div class="book">
+                    <img src="ehhhh.jpg"
+                         alt="Hopeless Romantic book cover">
+                    <p>Hopeless Romantic - Book 2</p>
+                    <small>By Strawberry08</small>
+                </div>
+
+                <!-- BOOK 5 -->
+                <div class="book">
+                    <img src="wow.jpg"
+                         alt="Cake Skies book cover">
+                    <p>Cake Skies</p>
+                    <small>By 4reuminct</small>
+                </div>
+
+                <!-- BOOK 6 -->
+                <div class="book">
+                    <img src="awke.png"
+                         alt="Just a Kiss book cover">
+                    <p>Just a Kiss</p>
+                    <small>By Shantel Tessier</small>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Author: Mikhaella Bodic<br>
+            Year: 2026<br>
+            Website: Wattpad Books
+        </p>
+
+        <p>
+            &copy; 2026 Wattpad Books Website.
+            All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
